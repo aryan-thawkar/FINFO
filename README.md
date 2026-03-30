@@ -265,10 +265,13 @@ npm run dev
 ```
 
 ### Test Different Roles
-1. Create account with any email
-2. Login with OTP
-3. Ask admin to assign different roles
-4. Test role-specific features
+1. Run department + role setup SQL from backend/migrations/setup_departments_and_roles.sql.
+2. Run login seed SQL from backend/migrations/create_hod_hr_users.sql.
+3. Use OTP login with these ready accounts:
+    - HOD: hod.cseds@college.edu
+    - HR: hr@college.edu
+    - Admin: admin@college.edu
+4. Test role-specific features after OTP verification.
 
 ## 📦 Deployment
 
@@ -526,5 +529,6 @@ You now have a complete, modern, secure faculty information system!
 **Happy Faculty Management! 🚀**
 
 *Built with ❤️ using modern web technologies*
-#   F I N F O  
+#   F I N F O 
+ 
  
